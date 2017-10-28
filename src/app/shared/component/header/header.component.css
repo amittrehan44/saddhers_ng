@@ -1,0 +1,142 @@
+.header_main {
+  
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: #000;
+  z-index: 120;
+  width: 100%;
+  min-height: 130px !important;
+}
+
+  .header_main div h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: white;
+    margin: 0 0 0 0;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+
+  .header_main div h2 {
+    color: white;
+    font-size: 1em;
+    margin: 5px 0 0 0;
+  }
+
+
+div.transbox {
+  margin: 10px 30px 0 0;
+  background-color: transparent;
+  border: 1px solid white;
+  max-width: 200px;
+}
+
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: aliceblue;
+  }
+
+.social-link {
+  list-style-type: none;
+}
+
+  .social-link li {
+    float: left;
+    margin-right: 8px;
+  }
+
+    .social-link li a {
+      display: block;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      font-size: 25px;
+      color: #fff;
+      border-radius: 50%;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .social-link li.facebook a {
+      background: blue;
+    }
+
+    .social-link li.instagram a {
+      background: #ff0000;
+    }
+
+    .social-link li.twitter a {
+      background: #1dcaff;
+    }
+
+.navbar {
+  margin-top: 136px !important;
+  margin-bottom: 0px;
+  margin-bottom: 0px;
+  padding: 5px 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #fff;
+  opacity: .8;
+}
+
+.navbar-brand h1 {
+  color: red;
+  font-size: 25px;
+  line-height: 0px;
+  font-family: 'Lobster', cursive;
+  opacity: 10;
+}
+
+.navbar-nav > li > a {
+  color: #000;
+  font-size:20px;
+  margin: 0 12px 0 12px;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+}
+
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #0026ff;
+  }
+
+.dropdown-menu {
+  background-color: black;
+  color: white;
+}
+
+.cbp-af-header-shrink {
+  margin-top: 0 !important;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  opacity: 0.9;
+}
+
+
+@media (max-width: 1008px) {
+  .social-link li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .social-link {
+    display: none;
+  }
+
+  .transbox {
+    display: none;
+  }
+}

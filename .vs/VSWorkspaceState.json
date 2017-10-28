@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\layout",
+    "\\src\\app\\layout\\home",
+    "\\src\\app\\layout\\threading",
+    "\\src\\app\\layout\\waxing",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\component",
+    "\\src\\assets"
+  ],
+  "SelectedNode": "\\src\\assets\\images\\about image.jpg",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 30px;
+  font-family: Montserrat,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+a[href^=tel] {
+  color: inherit;
+  text-decoration: none;
+}
+

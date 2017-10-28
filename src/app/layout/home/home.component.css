@@ -1,0 +1,44 @@
+.home{
+  
+  margin: 196px 0 0 10px;
+}
+
+#carousel {
+ 
+}
+
+#carousel img {
+  min-height: 150px;
+  height: auto;
+  width: 100%;
+}
+
+
+.about {
+  margin: 20px 0 20px 0;
+  padding-top: 110px;
+  padding-bottom: 0;
+  display: block;
+  position: relative;
+}
+
+
+.section-heading h2 {
+  font-family: 'Satisfy', sans-serif;
+  color: #D84315;
+  font-size: 46px;
+}
+
+.section-heading i {
+  margin-bottom: 20px;
+}
+
+.about img {
+  max-width: 230px; 
+
+}
+
+.about_first{
+  margin: 10px 0 100px 0;
+}
+
