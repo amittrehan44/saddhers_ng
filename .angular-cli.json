@@ -19,6 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "sd",
       "styles": [
+        "animate.css",
         "styles.css",
         "../node_modules/font-awesome/css/font-awesome.css"
       ],

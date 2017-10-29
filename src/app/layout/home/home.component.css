@@ -13,6 +13,57 @@
   width: 100%;
 }
 
+.img1 .carousel-caption {
+  top: 0;
+  bottom: auto;
+  left: 500px;
+  right:0;
+}
+
+.img1 h1 {
+  font-size: 40px;
+  color: white;
+
+  top: 5%;
+  
+  margin: 100px 0 50px 0;
+}
+.img1 h1 span {
+  color: orangered;
+}
+
+.img1 h2 {
+  font-size: 20px;
+  color: white;
+  margin: 0 100px 0 100px;
+}
+
+
+.img3 .carousel-caption {
+  top: 0;
+  bottom: auto;
+  left: 500px;
+  right: 0;
+}
+
+.img3 h1 {
+  font-size: 40px;
+  color: white;
+  top: 5%;
+  margin: 100px 0 50px 0;
+}
+
+  .img3 h1 span {
+    color: orangered;
+  }
+
+.img3 h2 {
+  font-size: 20px;
+  color: white;
+  margin: 0 100px 0 100px;
+}
+
+
 
 .about {
   margin: 20px 0 20px 0;
@@ -33,9 +84,18 @@
   margin-bottom: 20px;
 }
 
-.about img {
-  max-width: 230px; 
+.studio-img{
+  margin: 20px 0;
+}
 
+.studio-img img {
+  width: 100%;
+}
+
+.fixed-attachment {
+  background-attachment: fixed;
+  z-index: -1;
+  position: static;
 }
 
 .about_first{
