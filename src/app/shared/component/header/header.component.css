@@ -4,17 +4,21 @@
   top: 0; 
   width: 100%;
   
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background-color: #000;
   z-index: 120;
   width: 100%;
   min-height: 130px !important;
 }
 
-  .header_main div h1 {
+  .header_main div a {
+    color: white;
+    text-decoration: none;
+  }
+    .header_main div h1 {
     font-family: 'Lobster', cursive;
-    font-size: 3em;
+    font-size: 3.5em;
     color: white;
     margin: 0 0 0 0;
     font-weight: 400;

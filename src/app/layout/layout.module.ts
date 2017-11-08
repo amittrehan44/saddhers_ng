@@ -12,6 +12,7 @@ import { WaxingComponent } from './waxing/waxing.component';
 import { ThreadingComponent } from './threading/threading.component';
 import { LaoutRoutingModule } from './/laout-routing.module';
 import { HomeComponent } from './home/home.component';
+import { LaserComponent } from './laser/laser.component';
 
 
 
@@ -29,7 +30,8 @@ import { HomeComponent } from './home/home.component';
       ContactComponent,
       WaxingComponent,
       ThreadingComponent,
-      HomeComponent
+      HomeComponent,
+      LaserComponent
       
   ],
 

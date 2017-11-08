@@ -66,6 +66,13 @@
       new WOW().init();
 
 
+      // below code helps to collapse navbar when menue item is clicked
+      $(document).on('click', '.navbar-collapse.in', function (e) {
+        if ($(e.target).is('a')) {
+          $(this).collapse('hide');
+        }
+      });
+
     });
 
   </script>

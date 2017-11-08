@@ -4,14 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\layout",
-    "\\src\\app\\layout\\home",
+    "\\src\\app\\layout\\contact",
     "\\src\\app\\shared",
     "\\src\\app\\shared\\component",
     "\\src\\app\\shared\\component\\footer",
     "\\src\\assets",
-    "\\src\\assets\\images",
-    "\\src\\assets\\js"
+    "\\src\\assets\\images"
   ],
-  "SelectedNode": "\\src\\assets\\images",
+  "SelectedNode": "\\src\\assets\\images\\section-bg2.jpg",
   "PreviewInSolutionExplorer": false
 }

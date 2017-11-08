@@ -1,3 +1,39 @@
-.waxing {
+.threading {
   margin: 280px 0;
+  
+}
+
+.threading-header {
+  
+  
+}
+
+.threading-image {
+  margin: 30px 0 0 0;
+}
+
+
+h1 {
+  color: black;
+  font-family: 'Sumana', serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: black;
+  font-family: 'Courgette', cursive;
+}
+
+  h2 span {
+    color: orangered;
+  }
+
+h3 {
+  color: dimgrey;
+  font-size: 1em;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #FFF7F8;
 }

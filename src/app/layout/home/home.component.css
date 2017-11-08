@@ -4,7 +4,12 @@
 }
 
 #carousel {
- 
+  font-family: 'Courgette', cursive;
+}
+p {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
 }
 
 #carousel img {
@@ -21,11 +26,10 @@
 }
 
 .img1 h1 {
-  font-size: 40px;
-  color: white;
-
+  font-size: 60px;
+  color: black;
+  font-family: 'Courgette', cursive;
   top: 5%;
-  
   margin: 100px 0 50px 0;
 }
 .img1 h1 span {
@@ -34,7 +38,7 @@
 
 .img1 h2 {
   font-size: 20px;
-  color: white;
+  color: black;
   margin: 0 100px 0 100px;
 }
 
@@ -42,24 +46,51 @@
 .img3 .carousel-caption {
   top: 0;
   bottom: auto;
-  left: 500px;
+  left: 400px;
   right: 0;
 }
 
 .img3 h1 {
   font-size: 40px;
-  color: white;
+  color: black;
   top: 5%;
   margin: 100px 0 50px 0;
+  font-family: 'Courgette', cursive;
 }
 
   .img3 h1 span {
-    color: orangered;
+    color: darkgoldenrod;
   }
 
 .img3 h2 {
   font-size: 20px;
-  color: white;
+  color: black;
+  margin: 0 100px 0 100px;
+}
+
+
+.img4 .carousel-caption {
+  top: 0;
+  bottom: auto;
+  left: 500px;
+  right: 0;
+}
+
+.img4 h1 {
+  font-size: 40px;
+  color: black;
+  top: 5%;
+  margin: 100px 0 50px 0;
+  font-family: 'Courgette', cursive;
+}
+
+  .img4 h1 span {
+    color: blue;
+  }
+
+.img4 h2 {
+  font-size: 20px;
+  color: black;
   margin: 0 100px 0 100px;
 }
 
@@ -75,9 +106,13 @@
 
 
 .section-heading h2 {
-  font-family: 'Satisfy', sans-serif;
-  color: #D84315;
+  font-family: 'Ruthie', cursive;
+  color: #FF7F50;
   font-size: 46px;
+}
+
+.about_first h2 {
+  font-family: 'Courgette', cursive;
 }
 
 .section-heading i {
