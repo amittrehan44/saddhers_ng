@@ -4,7 +4,7 @@
       if (redirect && redirect != location.href) {
         history.replaceState(null, null, redirect);
       }
-    })();</script><meta charset="utf-8"><title>Saddhers</title><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!--Below 2 jquesry scripts are used for navbar drop down--><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><base href="http://stallionlubricants.com/saddhers_ng/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="styles.38a17ce9e029fda39776.bundle.css" rel="stylesheet"/></head><body><!--Facebook Footer Code--><div id="fb-root"></div><script>(function (d, s, id) {
+    })();</script><meta charset="utf-8"><title>Saddhers</title><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!--Below 2 jquesry scripts are used for navbar drop down--><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><base href="http://stallionlubricants.com/saddhers_ng/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="styles.19d4dbe87f1ef78821a4.bundle.css" rel="stylesheet"/></head><body><!--Facebook Footer Code--><div id="fb-root"></div><script>(function (d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
@@ -21,4 +21,11 @@
       new WOW().init();
 
 
-    });</script><script type="text/javascript" src="inline.698670b3fff9a6c71038.bundle.js"></script><script type="text/javascript" src="polyfills.1760a5bceff0d46d8986.bundle.js"></script><script type="text/javascript" src="scripts.fe8779679812dd043969.bundle.js"></script><script type="text/javascript" src="vendor.0b0c52fdcf44fcb49e1d.bundle.js"></script><script type="text/javascript" src="main.089aef6d38992fc658ba.bundle.js"></script></body></html>
+      // below code helps to collapse navbar when menue item is clicked
+      $(document).on('click', '.navbar-collapse.in', function (e) {
+        if ($(e.target).is('a')) {
+          $(this).collapse('hide');
+        }
+      });
+
+    });</script><script type="text/javascript" src="inline.d1748647b3c7830d53b3.bundle.js"></script><script type="text/javascript" src="polyfills.1760a5bceff0d46d8986.bundle.js"></script><script type="text/javascript" src="scripts.fe8779679812dd043969.bundle.js"></script><script type="text/javascript" src="vendor.0b0c52fdcf44fcb49e1d.bundle.js"></script><script type="text/javascript" src="main.46b4c280ad6ba3265aea.bundle.js"></script></body></html>
