@@ -1,9 +1,7 @@
-.laser {
-    margin: 280px 0;
+.hair {
+    margin-top: 280px;
     
   }
-
-
   .panel-heading {
     color: white;
     font-family: 'Sumana', serif;
@@ -15,13 +13,4 @@
   .panel-body {
     color: black;
     font-family: 'Courgette', cursive;
-    font-size: 20px;
   }
-
-  .panel-body h1{
-    color: black;
-    /* font-family: 'Courgette', cursive; */
-    font-size: 15px;
-  }
-
-  

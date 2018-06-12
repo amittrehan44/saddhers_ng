@@ -1,8 +1,7 @@
-.laser {
+.hand {
     margin: 280px 0;
     
   }
-
 
   .panel-heading {
     color: white;
@@ -15,13 +14,4 @@
   .panel-body {
     color: black;
     font-family: 'Courgette', cursive;
-    font-size: 20px;
   }
-
-  .panel-body h1{
-    color: black;
-    /* font-family: 'Courgette', cursive; */
-    font-size: 15px;
-  }
-
-  

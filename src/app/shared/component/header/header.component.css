@@ -99,19 +99,21 @@ div.transbox {
 
 .navbar-nav > li > a {
   color: #000;
-  font-size:20px;
+  font-size:13px;
   margin: 0 12px 0 12px;
+  font-weight: bold;
 }
 
-.navbar-nav > li > a:hover {
-  background-color: #000;
-  color: white;
-  text-decoration: none;
-}
-
-  .navbar-default .navbar-nav > li > a:hover {
-    color: #0026ff;
+  .navbar-nav > li > a:hover {
+    background-color: #000; 
+    color: white;
+    text-decoration: none;
   }
+
+.navbar-default .navbar-nav > li > a:hover {
+  /* color: #0026ff; */
+  color: red;
+}
 
 .dropdown-menu {
   background-color: black;

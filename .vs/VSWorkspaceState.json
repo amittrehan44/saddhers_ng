@@ -5,12 +5,12 @@
     "\\src\\app",
     "\\src\\app\\layout",
     "\\src\\app\\layout\\contact",
+    "\\src\\app\\layout\\home",
     "\\src\\app\\shared",
     "\\src\\app\\shared\\component",
     "\\src\\app\\shared\\component\\footer",
-    "\\src\\assets",
-    "\\src\\assets\\images"
+    "\\src\\app\\shared\\component\\header"
   ],
-  "SelectedNode": "\\src\\assets\\images\\section-bg2.jpg",
+  "SelectedNode": "\\src\\app\\layout\\contact\\contact.component.html",
   "PreviewInSolutionExplorer": false
 }

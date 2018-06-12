@@ -3,10 +3,11 @@
   
 }
 
-.threading-header {
+/* .threading-header {
   
-  
-}
+  background-color: #c03f3ff5;
+  color: white;
+} */
 
 .threading-image {
   margin: 30px 0 0 0;
@@ -14,13 +15,13 @@
 
 
 h1 {
-  color: black;
+  /* color: black; */
   font-family: 'Sumana', serif;
   text-transform: uppercase;
 }
 
 h2 {
-  color: black;
+  /* color: black; */
   font-family: 'Courgette', cursive;
 }
 
@@ -34,6 +35,23 @@ h3 {
   font-family: "Raleway", Arial, sans-serif;
 }
 
-.table-striped > tbody > tr:nth-of-type(odd) {
+/* .table-striped > tbody > tr:nth-of-type(odd) {
   background-color: #FFF7F8;
+} */
+
+
+tbody{
+  font-size: 17px;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: black !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: red;
+}
+
+.table>tbody>tr>td{
+  color: white;
 }

@@ -5,8 +5,7 @@ import { AppComponent } from './app.component';
 
 
 const routes: Routes = [
-    { path: 'welcome', loadChildren: './layout/layout.module#LayoutModule' },
-   
+    { path: 'welcome', loadChildren: './layout/layout.module#LayoutModule' },   
     { path: '', redirectTo: 'welcome', pathMatch: 'full' }
     
 ];

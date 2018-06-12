@@ -1,6 +1,6 @@
 .waxing {
   margin: 200px 0;
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   padding-top: 20px;
 }
 
@@ -15,7 +15,7 @@ h2 {
 }
 
 h2 span {
-  color: orangered;
+  color: red;
 }
 
 h3 {
@@ -24,6 +24,21 @@ h3 {
   font-family: "Raleway", Arial, sans-serif;
 }
 
-.table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: #FFF7F8;
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: black !important;
 }
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: red;
+}
+
+.table>tbody>tr>td{
+  color: white;
+}
+
+div span {
+  font-size: 15px;
+  color: red;
+  font-weight: bold;
+}
+

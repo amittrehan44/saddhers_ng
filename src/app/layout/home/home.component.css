@@ -10,6 +10,11 @@ p {
   font-family: "Raleway", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
+  
+}
+
+p strong {
+  color: red;
 }
 
 #carousel img {
@@ -33,7 +38,7 @@ p {
   margin: 100px 0 50px 0;
 }
 .img1 h1 span {
-  color: orangered;
+  color: red;
 }
 
 .img1 h2 {
@@ -59,7 +64,8 @@ p {
 }
 
   .img3 h1 span {
-    color: darkgoldenrod;
+    /*color: darkgoldenrod; */
+    color: red;
   }
 
 .img3 h2 {
@@ -85,7 +91,7 @@ p {
 }
 
   .img4 h1 span {
-    color: blue;
+    color: red;
   }
 
 .img4 h2 {
@@ -107,7 +113,7 @@ p {
 
 .section-heading h2 {
   font-family: 'Ruthie', cursive;
-  color: #FF7F50;
+  color: red;
   font-size: 46px;
 }
 
