@@ -3,8 +3,8 @@
 /* Talk Business
 ---------------------------------*/
 .business-talking {
-    background: url(/assets/images/section-bg2.jpg) top center no-repeat; 
- 
+  background: url(/assets/images/section-bg2.jpg) top center no-repeat; 
+  background-size: cover;
   padding: 60px 0 10px;
   text-align: center;
   z-index: -100;
@@ -28,7 +28,8 @@
 /* Contact
 ---------------------------------*/
 .main-section.contact {
-  padding: 90px 0 100px;
+  padding: 90px 0 50px 50px;
+
 }
 
 .main-section.contact {
@@ -222,4 +223,10 @@
   height: 200px;
   width: 100%;
   margin: 15px 0;
+}
+
+@media only screen and (max-width: 600px) {
+.messageBox {
+  display: none;
+}
 }

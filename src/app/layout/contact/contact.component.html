@@ -43,34 +43,19 @@
         </div>
         <div class="address">
           <div class="col-sm-12 col-md-12">
+                            
+                            
+
+            <!-- Google Map
+             <div id="map"></div>  -->
+
+            <!-- <iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJWSJumU41hFQRrevNUpk9qLw&key=AIzaSyAu8CFA72SZ6RHB8oWqLytETiF99WB1hlo" allowfullscreen></iframe> -->
+            <iframe id="map" width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.091620707138!2d-122.38031718412523!3d49.06589309402719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485cad60d8b7c3f%3A0xdedc9b68290ebb50!2sSaddher&#39;s+Hair+%26+Beauty+Salon!5e0!3m2!1sen!2sca!4v1529699210043" allowfullscreen></iframe>
+        </div>
+        
 
 
-
-            <!-- Google Map-->
-            <div id="map"></div>
-
-          </div>
-
-
-          <script>
-                                 var uluru = { lat: 49.054060, lng: -122.336279 };
-								function initMap() {
-
-                                    var uluru = { lat: 49.054060, lng: -122.336279 };
-                                    var map = new google.maps.Map(document.getElementById('map'), {
-                                        zoom: 17,
-                                        center: uluru
-                                    });
-                                    var marker = new google.maps.Marker({
-                                        position: uluru,
-                                        map: map
-                                    });
-
-
-								}
-
-
-          </script>
+          
 
           <!-- Replace the value of the key parameter with your own API key. -->
           <script async defer
@@ -89,13 +74,15 @@
           </ul>
           -->
       <!--       -------------------Send Message Box------------------- -->
-      <div class="col-lg-6 col-sm-5 wow fadeInUp delay-05s">
+      <div class="messageBox col-lg-6 col-sm-5 wow fadeInUp delay-05s">
         <h2>For Inquiries</h2>
         <div class="form">
 
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
           <form action="http://formspree.io/amit.trehan44@gmail.com" method="post" role="form" class="contactForm">
+            <input type="hidden" name="_cc" value="amit.trehan44@gmail.com" />
+           
             <div class="form-group">
               <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" required="required" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
               <div class="validation"></div>

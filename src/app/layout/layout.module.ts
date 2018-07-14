@@ -18,6 +18,7 @@ import { MakeupComponent } from './makeup/makeup.component';
 import { HandComponent } from './hand/hand.component';
 import { HairComponent } from './hair/hair.component';
 import { MassageComponent } from './massage/massage.component';
+import { DermalogicaComponent } from './dermalogica/dermalogica.component';
 
 
 
@@ -41,7 +42,8 @@ import { MassageComponent } from './massage/massage.component';
       MakeupComponent,
       HandComponent,
       HairComponent,
-      MassageComponent
+      MassageComponent,
+      DermalogicaComponent
       
   ],
 

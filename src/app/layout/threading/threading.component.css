@@ -49,9 +49,16 @@ tbody{
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background-color: red;
+  background-color: #be2929;
 }
 
 .table>tbody>tr>td{
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .threading {
+    margin: 200px 0 0 10px !important;
+   
+}
 }

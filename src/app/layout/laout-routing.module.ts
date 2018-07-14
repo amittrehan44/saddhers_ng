@@ -11,6 +11,7 @@ import { HairComponent } from "./hair/hair.component";
 import { LaserComponent } from "./laser/laser.component";
 import { HomeComponent } from "./home/home.component";
 import { MassageComponent } from "./massage/massage.component";
+import { DermalogicaComponent } from "./dermalogica/dermalogica.component";
 
 const routes: Routes = [
     {
@@ -24,6 +25,7 @@ const routes: Routes = [
             { path: 'hair', component: HairComponent },
             { path: 'laser', component: LaserComponent },
             { path: 'massage', component: MassageComponent },
+            { path: 'dermalogica', component: DermalogicaComponent },
             { path: '', redirectTo: 'home', pathMatch: 'full' },
            
         ] },

@@ -143,3 +143,22 @@ p strong {
   margin: 10px 0 100px 0;
 }
 
+
+@media only screen and (max-width: 600px) {
+  #carouselStart {
+      display: none;
+  }
+
+  .about {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .fb-card {
+      display: none;
+  }
+
+}
+
+

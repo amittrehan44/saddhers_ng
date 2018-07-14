@@ -1,18 +1,40 @@
 .massage {
-    margin: 280px 0 0 10px;
+  margin-top: 280px;
    
     
 }
 
 .panel-heading {
-    color: white;
-    font-family: 'Sumana', serif;
-    text-transform: uppercase;
-    font-size: 36px;
-    background-color: #be2929;
-  }
-  
-  .panel-body {
-    color: black;
-    font-family: 'Courgette', cursive;
-  }
+  color: white;
+  font-family: 'Sumana', serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: black;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.panel-body {
+  color: black;
+  font-family: 'Courgette', cursive;
+}
+
+.table > tbody > tr:nth-of-type(even) {
+  background-color: black !important;
+}
+
+.table > tbody > tr:nth-of-type(odd) {
+  background-color: #be2929;
+}
+
+.table>tbody>tr>td{
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+  .massage {
+    margin: 200px 0 0 10px !important;
+   
+}
+}
